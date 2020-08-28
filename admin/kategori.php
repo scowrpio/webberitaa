@@ -47,7 +47,7 @@ function tambah($koneksi)
                 </div>
 
 
-                <button type="submit" class="btn btn-success mr-2" type="submit" name="input_kategori">Submit</button>
+                <button type="submit" class="btn btn-primary mr-2" type="submit" name="input_kategori">Submit</button>
                 <button class="btn btn-light" type="reset">Reset</button>
               </form>
 
@@ -84,7 +84,7 @@ function tambah($koneksi)
                           <td><?php echo $no ?></td>
                           <td><?php echo $data['nama_kategori'] ?></td>
                           <td>
-                            <a href="kategori.php?aksi=update&id=<?php echo $data['id_kategori']; ?>&nama_kategori=<?php echo $data['nama_kategori']; ?>" class="btn btn-warning">Edit</a>
+                            <a href="kategori.php?aksi=update&id=<?php echo $data['id_kategori']; ?>&nama_kategori=<?php echo $data['nama_kategori']; ?>" class="btn btn-light">Edit</a>
                             <a href="kategori.php?aksi=delete&id=<?php echo $data['id_kategori']; ?>" onclick="return confirm('Apakah anda yakin ingin menghapus?')" class="btn btn-danger">Hapus</a>
                           </td>
                         </tr>
@@ -159,7 +159,7 @@ function ubah($koneksi)
             </div>
 
 
-            <button class="btn btn-success mr-2" type="submit" name="ubah_kategori">Update</button>
+            <button class="btn btn-primary mr-2" type="submit" name="ubah_kategori">Update</button>
             <button class="btn btn-light" type="reset">Reset</button>
           </form>
 

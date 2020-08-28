@@ -104,7 +104,7 @@ function tambah($koneksi)
                                 </div>
 
 
-                                <button type="submit" class="btn btn-success mr-2" type="submit" name="input_biodata">Submit</button>
+                                <button type="submit" class="btn btn-primary mr-2" type="submit" name="input_biodata">Submit</button>
                                 <button class="btn btn-light" type="reset">Reset</button>
                             </form>
 
@@ -152,11 +152,11 @@ function tambah($koneksi)
                                                     <td><?php echo $data['tempat_lahir'] ?></td>
                                                     <td><?php echo $data['alamat'] ?></td>
                                                     <td>
-                                                        <a href="upload/biodata/<?php echo $data['foto'] ?>" target="blank" class="btn btn-info">foto</a>
+                                                        <a href="upload/biodata/<?php echo $data['foto'] ?>" target="blank" class="btn btn-primary">foto</a>
                                                     </td>
 
                                                     <td>
-                                                        <a href="biodata_user.php?aksi=update&id=<?php echo $data['id_biodata']; ?>&nama=<?php echo $data['nama']; ?>&tanggal=<?php echo $data['tanggal_lahir']; ?>&tempat=<?php echo $data['tempat_lahir']; ?>&jk=<?php echo $data['jenis_kelamin']; ?>&alamat=<?php echo $data['alamat']; ?>&id_user=<?php echo $data['id_user'] ?>" class="btn btn-warning">Edit</a>
+                                                        <a href="biodata_user.php?aksi=update&id=<?php echo $data['id_biodata']; ?>&nama=<?php echo $data['nama']; ?>&tanggal=<?php echo $data['tanggal_lahir']; ?>&tempat=<?php echo $data['tempat_lahir']; ?>&jk=<?php echo $data['jenis_kelamin']; ?>&alamat=<?php echo $data['alamat']; ?>&id_user=<?php echo $data['id_user'] ?>" class="btn btn-light">Edit</a>
                                                         <a href="biodata_user.php?aksi=delete&id=<?php echo $data['id_biodata']; ?>" class=" btn btn-danger delete-link">Hapus</a>
                                                     </td>
                                                 </tr>
@@ -312,7 +312,7 @@ function ubah($koneksi)
                         </div>
 
 
-                        <button type="submit" class="btn btn-success mr-2" type="submit" name="ubah_biodata">Submit</button>
+                        <button type="submit" class="btn btn-light mr-2" type="submit" name="ubah_biodata">Submit</button>
                         <button class="btn btn-light" type="reset">Reset</button>
                     </form>
 

@@ -36,7 +36,7 @@
                             </div>
                             <?php if (!empty($data['password'])) { ?>
 
-                                <button class="btn btn-success" onclick="gantiPass()">Ganti Pasword</button>
+                                <button class="btn btn-light" onclick="gantiPass()">Ganti Pasword</button>
                                 <div id="gantipass"></div>
                             <?php } else { ?>
                                 <div class="form-group">
@@ -74,7 +74,7 @@
 
 
 
-                            <button type="submit" class="btn btn-success mr-2" type="submit" name="update_user">Submit</button>
+                            <button type="submit" class="btn btn-primary mr-2" type="submit" name="update_user">Submit</button>
                             <button class="btn btn-light" type="reset">Reset</button>
                         </form>
                     </div>

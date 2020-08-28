@@ -86,8 +86,8 @@ function tambah($koneksi)
                                     <textarea id="content" class="form-control" name="konten"></textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-success mr-2" type="submit" name="input_konten">Posting</button>
-                                <button class="btn btn-light" type="reset">Reset</button>
+                                <button type="submit" class="btn btn-primary mr-2" type="submit" name="input_konten">Posting</button>
+                                <button class="btn btn-light" type="reset">Cancel</button>
                             </form>
                         </div>
                     </div>
@@ -130,8 +130,8 @@ function tambah($koneksi)
                                                         <td><?php echo $data['judul']; ?></td>
                                                         <td><?php echo $data['tgl_release']; ?></td>
                                                         <td>
-                                                            <a href="postingan_autor.php?aksi=update&id=<?php echo $data['id_postingan'] ?>" class="btn btn-warning">Edit</a>
-                                                            <a href="" class="btn btn-info">View</a>
+                                                            <a href="postingan_autor.php?aksi=update&id=<?php echo $data['id_postingan'] ?>" class="btn btn-light">Edit</a>
+                                                            <a href="" class="btn btn-success">View</a>
                                                             <a href="postingan_autor.php?aksi=delete&id=<?php echo $data['id_postingan'] ?>" onclick="return confirm('Apakah anda yakin ingin menghapus?')" class="btn btn-danger">Hapus</a>
                                                         </td>
                                                     </tr>

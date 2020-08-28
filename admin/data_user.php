@@ -44,7 +44,7 @@
               </div>
 
 
-              <button type="submit" class="btn btn-success mr-2" type="submit" name="input_user">Submit</button>
+              <button type="submit" class="btn btn-primary mr-2" type="submit" name="input_user">Submit</button>
               <button class="btn btn-light" type="reset">Reset</button>
             </form>
           </div>
@@ -84,8 +84,8 @@
                         <td><?php echo $data['no_hp']; ?></td>
                         <td><?php echo $data['level']; ?></td>
                         <td>
-                          <a href="edit_user.php?id=<?php echo $data['id_user'] ?>" class="btn btn-warning">Edit</a>
-                          <a href="" class="btn btn-info">View</a>
+                          <a href="edit_user.php?id=<?php echo $data['id_user'] ?>" class="btn btn-light">Edit</a>
+                          <a href="" class="btn btn-success">View</a>
                           <a href="proses/proses_hapus.php?id=<?php echo $data['id_user'] ?>" onclick="return confirm('Apakah anda yakin ingin menghapus?')" class="btn btn-danger">Hapus</a>
                         </td>
                       </tr>
